@@ -1,5 +1,5 @@
 const grid = document.querySelector(".grid");
-let n = 16;
+let n = 32;
 for(let i = 0; i<n; i++) {
     row = document.createElement('div');
     row.classList.add(`row`);
