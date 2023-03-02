@@ -20,11 +20,11 @@ body {
 
 .row {
     display: flex;
-    height: 6.25%;
+    height: 50%;
 }
 
 .elem {
-    width: 6.25%;
+    width: 50%;
     /* border-color: black;
     border-style: solid;
     border-width: 1px; */
@@ -33,4 +33,8 @@ body {
 
 .hov {
     background-color:chartreuse;
+}
+
+button {
+    margin: 16px;
 }
