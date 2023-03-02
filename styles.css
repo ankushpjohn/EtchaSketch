@@ -1,7 +1,12 @@
 body {
+    background-color: #f8f8f8;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .grid {
@@ -32,9 +37,18 @@ body {
 }
 
 .hov {
-    background-color:chartreuse;
+    background-color: chartreuse;
 }
 
 button {
     margin: 16px;
+}
+
+.size {
+    display: flex;
+    gap: 5px;
+}
+
+.size label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
